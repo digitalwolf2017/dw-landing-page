@@ -6,7 +6,23 @@ Inspired by modern award-winning creative agency experiences (e.g., Agntix Desig
 
 ---
 
-## 2. Core Engineering Rules & Architecture
+## 2. Core Engineering Rules, Skills & Architecture
+
+### Skills & Modular Rules Reference Matrix
+All implementation tasks must adhere to and consult the corresponding specialized skills and modular rule files:
+
+| Domain / Discipline | Workspace Skill(s) | Modular Rule File |
+| :--- | :--- | :--- |
+| **3D & Canvas (R3F, Three.js)** | [`react-three-fiber`](file:///.agents/skills/react-three-fiber), [`threejs-webgl`](file:///.agents/skills/threejs-webgl), [`web3d-integration-patterns`](file:///.agents/skills/web3d-integration-patterns) | [`.agents/rules/web3d-and-r3f.md`](file:///.agents/rules/web3d-and-r3f.md) |
+| **Animation (GSAP & ScrollTrigger)** | [`gsap-scrolltrigger`](file:///.agents/skills/gsap-scrolltrigger), [`gsap-react`](file:///.agents/skills/gsap-react), [`gsap-performance`](file:///.agents/skills/gsap-performance) | [`.agents/rules/gsap-and-motion.md`](file:///.agents/rules/gsap-and-motion.md) |
+| **Web Performance & 60 FPS** | [`performance`](file:///.agents/skills/performance), [`gsap-performance`](file:///.agents/skills/gsap-performance) | [`.agents/rules/performance-and-quality.md`](file:///.agents/rules/performance-and-quality.md) |
+| **Accessibility & Fallbacks** | [`accessibility`](file:///.agents/skills/accessibility), [`web3d-integration-patterns`](file:///.agents/skills/web3d-integration-patterns) | [`.agents/rules/accessibility-and-fallbacks.md`](file:///.agents/rules/accessibility-and-fallbacks.md) |
+| **Art Direction & Anti-Slop** | [`design-taste-frontend`](file:///.agents/skills/design-taste-frontend) | [`.agents/rules/taste-frontend.md`](file:///.agents/rules/taste-frontend.md), [`.agents/rules/design-system.md`](file:///.agents/rules/design-system.md) |
+| **Code Splitting & Line Limits** | [`performance`](file:///.agents/skills/performance) | [`.agents/rules/code-optimization-and-limits.md`](file:///.agents/rules/code-optimization-and-limits.md) |
+| **Type Safety & Security** | *Core Guardrails* | [`.agents/rules/code-safety.md`](file:///.agents/rules/code-safety.md) |
+| **UI Primitive Sourcing** | [21st.dev Registry](https://21st.dev) | [`.agents/rules/components-21st.md`](file:///.agents/rules/components-21st.md) |
+
+---
 
 ### Rule 1: Code Line Cap & Modular Decomposition
 To prevent bloated components, maintain readability, and ensure maintainability:

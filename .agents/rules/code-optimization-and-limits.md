@@ -1,5 +1,10 @@
 # Code Optimization, Code Splitting & Line Cap Rules
 
+Associated Skills:
+- [`performance`](file:///Users/abhilash/work/nextjs/dw-landing-page/.agents/skills/performance/SKILL.md)
+- [`gsap-performance`](file:///Users/abhilash/work/nextjs/dw-landing-page/.agents/skills/gsap-performance/SKILL.md)
+- [`react-three-fiber`](file:///Users/abhilash/work/nextjs/dw-landing-page/.agents/skills/react-three-fiber/SKILL.md)
+
 ## 1. Strict File & Function Line Limits
 - **Max Component Lines**: **200 lines**. Every component file in `src/components/` must not exceed 200 lines of code. If a component grows past this, extract subcomponents into `ui/` or sub-folders, or extract hooks into `hooks/`.
 - **Max Function / Hook Lines**: **50 lines**. Keep functions modular, readable, and single-purpose.
